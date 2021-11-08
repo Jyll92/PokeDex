@@ -4,7 +4,7 @@ let div = document.querySelector(`#container`);
 
 async function loadPokemon() {
     try {
-        pokemon = await axios.get(`https://pokeapi.co/api/v2/pokemon/?limit=150`);
+        pokemon = await axios.get(`https://pokeapi.co/api/v2/pokemon/?limit=151`);
         pokemon = pokemon.data
         let pokeList = pokemon.results;
         
